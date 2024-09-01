@@ -11,7 +11,7 @@ const userPassword = passwordInputField.value;
 
 if (userEmail == 'admin@gmail.com' && userPassword == '123456'){
     alert("Login Successful");
-    window.location.href = "./../banking.html"
+    window.location.href = "https://username.github.io/BankProject/../banking.html"
 }else if (userEmail !='admin@gmail.com' || userPassword != '123456'){
     alert("Username or password is not valid");
 }
